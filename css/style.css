@@ -142,14 +142,34 @@ footer section {
 }
 
 footer section button {
-    width: 206px;
+    /* width: 206px;
     height: 40px;
     color: #FFFFFF;
     background-color: #C6B393;
     font-size: 14px;
     letter-spacing: 4px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 40px; */
+
+    background-color: #c6b393;
+    color: #ffffff;
+    min-width: 206px;
+    height: 40px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.fifth {
+    border-bottom: 1px solid #ffffff;
+    padding-top: 59px;
+    padding-bottom: 41px;
+
 }
 
 .fifth a {
@@ -163,16 +183,16 @@ footer section button {
     color: #FFFFFF;
     padding-left: 59px;
 }
-.sixth{
-    padding-bottom: 41px;
+
+
+.sixth  {
+    margin-top: 42px;
+    padding-bottom: 43px;
+
 }
-.sixth :first-child{
-    width: 16px;
-    height: 14px;
- 
-}
-.sixth a+a {
+
+/* .sixth a+a {
     padding-left: 19px;
     width: 16px;
     height: 14px;
-}
+} */
